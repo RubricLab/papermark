@@ -1,4 +1,4 @@
-import { Fragment, useEffect, useState } from "react";
+import { Fragment, useState } from "react";
 import { Menu, Dialog, Transition } from "@headlessui/react";
 import { signOut, useSession } from "next-auth/react";
 import {
@@ -11,21 +11,11 @@ import { cn } from "@/lib/utils";
 import { useRouter } from "next/router";
 import { ModeToggle } from "./theme-toggle";
 import ProBanner from "./billing/pro-banner";
-import Cookies from "js-cookie";
 
 export default function Sidebar() {
   const { data: session } = useSession();
   const [sidebarOpen, setSidebarOpen] = useState<boolean>(false);
-  const [showProBanner, setShowProBanner] = useState<boolean | null>(null);
   const router = useRouter();
-
-  useEffect(() => {
-    if (Cookies.get("hideProBanner") !== "producthunt-banner") {
-      setShowProBanner(true);
-    } else {
-      setShowProBanner(false);
-    }
-  }, []);
 
   const navigation = [
     {
@@ -109,7 +99,7 @@ export default function Sidebar() {
                 <div className="flex grow flex-col gap-y-5 overflow-y-auto bg-gray-50 dark:bg-black px-6 ring-1 ring-foreground/10">
                   <div className="flex h-16 shrink-0 items-center">
                     <p className="text-2xl font-bold tracking-tighter text-black dark:text-white">
-                      Papermark
+                      Doc.Rubric.sh
                     </p>
                   </div>
                   <nav className="flex flex-1 flex-col">
@@ -153,7 +143,7 @@ export default function Sidebar() {
         <div className="flex grow flex-col gap-y-5 overflow-y-auto bg-gray-50 dark:bg-black px-6">
           <div className="flex h-16 shrink-0 items-center">
             <p className="text-2xl font-bold tracking-tighter text-black dark:text-white">
-              Papermark
+              Doc.Rubric.sh
             </p>
           </div>
           <nav className="flex flex-1 flex-col">
@@ -307,12 +297,6 @@ export default function Sidebar() {
           </div>
         </div>
       </div>
-      {showProBanner ? (
-        <ProBanner
-          setShowProBanner={setShowProBanner}
-        />
-      ) : null}
-      
     </>
   );
 }
