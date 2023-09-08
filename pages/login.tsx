@@ -6,6 +6,7 @@ import { useRouter } from "next/router";
 export default function Login() {
   const router = useRouter();
   const { next } = router.query as { next?: string };
+  console.log("next", next)
 
   return (
     <div className="flex h-screen w-screen justify-center">
