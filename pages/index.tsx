@@ -40,9 +40,9 @@ export default function Home() {
         />
         <meta
           property="og:image"
-          content="https://www.papermark.io/_static/meta-image.png"
+          content="https://doc.rubric.sh/_static/meta-image.png"
         />
-        <meta property="og:url" content="https://www.papermark.io" />
+        <meta property="og:url" content="https://doc.rubric.sh" />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <Navbar />

@@ -23,7 +23,7 @@ export default function App({
       <SessionProvider session={session}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <PlausibleProvider
-            domain="papermark.io"
+            domain="doc.rubric.sh"
             enabled={process.env.NEXT_PUBLIC_VERCEL_ENV === "production"}
           >
             <main className={inter.className}>

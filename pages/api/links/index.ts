@@ -21,8 +21,8 @@ export default async function handler(
 
     let { domain, slug, ...linkData } = linkDomainData;
 
-    // set domain and slug to null if the domain is papermark.io
-    if (domain && domain === "papermark.io") {
+    // set domain and slug to null if the domain is doc.rubric.sh
+    if (domain && domain === "doc.rubric.sh") {
       domain = null;
       slug = null;
     }

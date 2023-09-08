@@ -6,7 +6,7 @@
 </div>
 
 <div align="center">
-  <a href="https://www.papermark.io">papermark.io</a>
+  <a href="https://doc.rubric.sh">doc.rubric.sh</a>
 </div>
 
 <br/>
@@ -114,7 +114,7 @@ Visit [http://localhost:3000](http://localhost:3000) in your browser.
 All you need is a Vercel account and access to Vercel Storage (_Blob_ and _Postgres_). Click the
 button below to clone and deploy:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/mfts/papermark&env=NEXTAUTH_SECRET,NEXTAUTH_URL,POSTGRES_PRISMA_URL,POSTGRES_PRISMA_URL_NON_POOLING,BLOB_READ_WRITE_TOKEN,GOOGLE_CLIENT_ID,GOOGLE_CLIENT_SECRET,NEXT_PUBLIC_BASE_URL&envDescription=Here%27s%20an%20example%20.env%20for%20all%20variables%20required&envLink=https://github.com/mfts/papermark/blob/main/.env.example&project-name=my-awesome-papermark&repository-name=my-awesome-papermark&demo-title=Papermark&demo-description=Papermark%20is%20an%20open-source%20document%20sharing%20alternative%20to%20DocSend%20with%20built-in%20analytics.&demo-url=https://www.papermark.io&demo-image=https://www.papermark.io/_static/papermark.png)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/mfts/papermark&env=NEXTAUTH_SECRET,NEXTAUTH_URL,POSTGRES_PRISMA_URL,POSTGRES_PRISMA_URL_NON_POOLING,BLOB_READ_WRITE_TOKEN,GOOGLE_CLIENT_ID,GOOGLE_CLIENT_SECRET,NEXT_PUBLIC_BASE_URL&envDescription=Here%27s%20an%20example%20.env%20for%20all%20variables%20required&envLink=https://github.com/mfts/papermark/blob/main/.env.example&project-name=my-awesome-papermark&repository-name=my-awesome-papermark&demo-title=Papermark&demo-description=Papermark%20is%20an%20open-source%20document%20sharing%20alternative%20to%20DocSend%20with%20built-in%20analytics.&demo-url=https://doc.rubric.sh&demo-image=https://doc.rubric.sh/_static/papermark.png)
 
 ## Contributing
 

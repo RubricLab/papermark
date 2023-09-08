@@ -15,12 +15,12 @@ export default function PrivacyPage() {
           </p>
           <p>
             Papermark (“us”, “we”, or “our”) operates{" "}
-            <a href="https://papermark.io">https://papermark.io</a>{" "}
+            <a href="https://doc.rubric.sh">https://doc.rubric.sh</a>{" "}
             (hereinafter referred to as “<strong>Service</strong>”).
           </p>
           <p>
             Our Privacy Policy governs your visit to{" "}
-            <a href="https://papermark.io">https://papermark.io</a>, and
+            <a href="https://doc.rubric.sh">https://doc.rubric.sh</a>, and
             explains how we collect, safeguard and disclose information that
             results from your use of our Service.
           </p>
@@ -38,7 +38,7 @@ export default function PrivacyPage() {
           </p>
           <h3>2. Definitions</h3>
           <p>
-            <strong>SERVICE</strong> means the https://papermark.io website
+            <strong>SERVICE</strong> means the https://doc.rubric.sh website
             operated by Papermark.
           </p>
           <p>
@@ -305,7 +305,7 @@ export default function PrivacyPage() {
           <p>
             If you wish to be informed what Personal Data we hold about you and
             if you want it to be removed from our systems, please email us at
-            support@papermark.io.
+            support@doc.rubric.sh.
           </p>
           <p>
             In certain circumstances, you have the following data protection
@@ -383,7 +383,7 @@ export default function PrivacyPage() {
             </li>
             <li>
               users are able to change their personal information by emailing us
-              at support@papermark.io.
+              at support@doc.rubric.sh.
             </li>
           </ol>
           <p>Our Policy on “Do Not Track” Signals:</p>
@@ -487,7 +487,7 @@ export default function PrivacyPage() {
             To exercise your California data protection rights described above,
             please send your request(s) by one of the following means:
           </p>
-          <p>By email: support@papermark.io</p>
+          <p>By email: support@doc.rubric.sh</p>
           <p>
             Your data protection rights, described above, are covered by the
             CCPA, short for the California Consumer Privacy Act. To find out
@@ -617,7 +617,7 @@ export default function PrivacyPage() {
             If you have any questions about this Privacy Policy, please contact
             us:
           </p>
-          <p>By email: support@papermark.io.</p>
+          <p>By email: support@doc.rubric.sh.</p>
         </article>
       </div>
       <Footer />

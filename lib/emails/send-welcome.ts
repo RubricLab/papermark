@@ -8,7 +8,7 @@ export const sendWelcomeEmail = async (params: CreateUserEmailProps) => {
   const emailTemplate = WelcomeEmail({ name });
   await sendEmail({
     to: email as string,
-    subject: "Welcome to Papermark.io!",
+    subject: "Welcome to doc.rubric.sh!",
     react: emailTemplate,
   });
 };

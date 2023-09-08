@@ -58,7 +58,7 @@ const navigation = {
   ],
   legal: [{ name: "Privacy", href: "/privacy" }],
   tools: [
-    { name: "VC-generator", href: "https://vc.papermark.io" },
+    { name: "VC-generator", href: "https://vc.doc.rubric.sh" },
     // { name: "Pitchdeck Summariser", href: "#" },
   ],
   alternatives: [

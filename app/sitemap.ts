@@ -3,35 +3,35 @@ import { MetadataRoute } from "next";
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: "https://www.papermark.io",
+      url: "https://doc.rubric.sh",
       lastModified: new Date(),
     },
     {
-      url: "https://www.papermark.io/alternatives/docsend",
+      url: "https://doc.rubric.sh/alternatives/docsend",
       lastModified: new Date(),
     },
     {
-      url: "https://www.papermark.io/alternatives/brieflink",
+      url: "https://doc.rubric.sh/alternatives/brieflink",
       lastModified: new Date(),
     },
     {
-      url: "https://www.papermark.io/alternatives/pandadoc",
+      url: "https://doc.rubric.sh/alternatives/pandadoc",
       lastModified: new Date(),
     },
     {
-      url: "https://www.papermark.io/alternatives/google-drive",
+      url: "https://doc.rubric.sh/alternatives/google-drive",
       lastModified: new Date(),
     },
     {
-      url: "https://www.papermark.io/alternatives/pitch",
+      url: "https://doc.rubric.sh/alternatives/pitch",
       lastModified: new Date(),
     },
     {
-      url: "https://www.papermark.io/privacy",
+      url: "https://doc.rubric.sh/privacy",
       lastModified: new Date(),
     },
     {
-      url: "https://vc.papermark.io",
+      url: "https://vc.doc.rubric.sh",
       lastModified: new Date(),
     },
   ];

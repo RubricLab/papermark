@@ -95,7 +95,7 @@ const WelcomeEmail = ({ name }: WelcomeEmailProps) => {
             <Hr />
             <Section className="mt-8 text-gray-400">
               <Text className="text-xs">
-                © {new Date().getFullYear()}{" "}<a href="https://www.papermark.io" className="no-underline text-gray-400 hover:text-gray-400 visited:text-gray-400" target="_blank">papermark.io</a>
+                © {new Date().getFullYear()}{" "}<a href="https://doc.rubric.sh" className="no-underline text-gray-400 hover:text-gray-400 visited:text-gray-400" target="_blank">doc.rubric.sh</a>
               </Text>
               <Text className="text-xs">
                 If you have any feedback or questions about this email, simply

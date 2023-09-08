@@ -25,7 +25,7 @@ function BlogPost() {
           property="og:image"
           content="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fejivoe3vst4rsdzjblo.png"
         />
-        <meta property="og:url" content="https://www.papermark.io" />
+        <meta property="og:url" content="https://doc.rubric.sh" />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <Navbar />

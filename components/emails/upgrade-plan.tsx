@@ -91,11 +91,11 @@ const UpgradePlanEmail = ({ name }: UpgradePlanEmailProps) => {
               <Text className="text-xs">
                 © {new Date().getFullYear()}{" "}
                 <a
-                  href="https://www.papermark.io"
+                  href="https://doc.rubric.sh"
                   className="no-underline text-gray-400 hover:text-gray-400 visited:text-gray-400"
                   target="_blank"
                 >
-                  papermark.io
+                  doc.rubric.sh
                 </a>
               </Text>
               <Text className="text-xs">

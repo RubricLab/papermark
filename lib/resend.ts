@@ -14,7 +14,7 @@ export async function sendEmail(
   options: SendEmailProps
 ): Promise<CreateEmailResponse> {
   // Destructure the options object and provide a default value for the 'from' property
-  const { from = "Marc from Papermark <marc@papermark.io>", to, subject, react, ...otherOptions } = options;
+  const { from = "Marc from Papermark <marc@doc.rubric.sh>", to, subject, react, ...otherOptions } = options;
   try {
     // Send the email using the Resend API and return the response
     const response = await resend.emails.send({

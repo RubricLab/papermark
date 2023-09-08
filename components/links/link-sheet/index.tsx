@@ -157,19 +157,19 @@ export default function LinkSheet({ isOpen, setIsOpen, currentLink }: { isOpen: 
                     <Label htmlFor="link-domain">Domain</Label>
                     <div className="flex">
                       <select
-                        value={data.domain || "papermark.io"}
+                        value={data.domain || "doc.rubric.sh"}
                         onChange={(e) => {
                           setData({ ...data, domain: e.target.value });
                         }}
                         className={cn(
                           "w-48 rounded-l-md border border-r-0 border-border bg-secondary px-5 text-sm text-secondary-foreground focus:border-border focus:outline-none focus:ring-0",
-                          data.domain && data.domain !== "papermark.io"
+                          data.domain && data.domain !== "doc.rubric.sh"
                             ? ""
                             : "rounded-r-md border-r-1"
                         )}
                       >
-                        <option key="papermark.io" value="papermark.io">
-                          papermark.io
+                        <option key="doc.rubric.sh" value="doc.rubric.sh">
+                          doc.rubric.sh
                         </option>
                         {domains
                           ?.filter((domain) => domain.verified)
@@ -180,7 +180,7 @@ export default function LinkSheet({ isOpen, setIsOpen, currentLink }: { isOpen: 
                           ))}
                       </select>
 
-                      {!data.domain || data.domain === "papermark.io" ? (
+                      {!data.domain || data.domain === "doc.rubric.sh" ? (
                         <UpgradePlanModal>
                           <Button type="button" variant="ghost" className="h-8">
                             ✨ Get a custom domain ✨
@@ -188,7 +188,7 @@ export default function LinkSheet({ isOpen, setIsOpen, currentLink }: { isOpen: 
                         </UpgradePlanModal>
                       ) : null}
 
-                      {data.domain && data.domain !== "papermark.io" ? (
+                      {data.domain && data.domain !== "doc.rubric.sh" ? (
                         <input
                           type="text"
                           name="key"
@@ -203,7 +203,7 @@ export default function LinkSheet({ isOpen, setIsOpen, currentLink }: { isOpen: 
                           autoComplete="off"
                           className={cn(
                             "hidden w-full rounded-r-md border-0 py-1.5 text-foreground bg-background shadow-sm ring-1 ring-inset ring-input placeholder:text-muted-foreground focus:ring-2 focus:ring-inset focus:ring-gray-400 sm:text-sm sm:leading-6",
-                            data.domain && data.domain !== "papermark.io"
+                            data.domain && data.domain !== "doc.rubric.sh"
                               ? "flex"
                               : ""
                           )}

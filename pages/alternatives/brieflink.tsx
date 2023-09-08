@@ -146,9 +146,9 @@ export default function Home() {
         />
         <meta
           property="og:image"
-          content="https://www.papermark.io/_static/meta-image.png"
+          content="https://doc.rubric.sh/_static/meta-image.png"
         />
-        <meta property="og:url" content="https://www.papermark.io" />
+        <meta property="og:url" content="https://doc.rubric.sh" />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
 
@@ -317,7 +317,7 @@ export default function Home() {
               <div className="relative overflow-hidden pt-16">
                 <div className="mx-auto max-w-7xl px-6 lg:px-8">
                   <img
-                    src="https://www.papermark.io/_static/papermark.png"
+                    src="https://doc.rubric.sh/_static/papermark.png"
                     alt="App screenshot"
                     className="mb-[-12%] rounded-xl shadow-2xl ring-1 ring-gray-900/10"
                     width={2432}

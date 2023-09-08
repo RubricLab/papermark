@@ -16,9 +16,9 @@ export default function Document() {
         />
         <meta
           property="og:image"
-          content="https://www.papermark.io/_static/meta-image.png"
+          content="https://doc.rubric.sh/_static/meta-image.png"
         />
-        <meta property="og:url" content="https://www.papermark.io" />
+        <meta property="og:url" content="https://doc.rubric.sh" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@mfts0" />
         <meta name="twitter:creator" content="@mfts0" />
@@ -29,7 +29,7 @@ export default function Document() {
         />
         <meta
           name="twitter:image"
-          content="https://www.papermark.io/_static/meta-image.png"
+          content="https://doc.rubric.sh/_static/meta-image.png"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
