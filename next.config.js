@@ -8,13 +8,15 @@ const nextConfig = {
       "dev-to-uploads.s3.amazonaws.com",
     ],
   },
-  redirects: [
-    {
-      source: '/',
-      destination: '/login',
-      permanent: false,
-    }
-  ],
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: '/login',
+        permanent: false,
+      },
+    ]
+  },
 };
 
 module.exports = nextConfig
