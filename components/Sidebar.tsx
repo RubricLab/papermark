@@ -10,7 +10,6 @@ import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { useRouter } from "next/router";
 import { ModeToggle } from "./theme-toggle";
-import ProBanner from "./billing/pro-banner";
 
 export default function Sidebar() {
   const { data: session } = useSession();
